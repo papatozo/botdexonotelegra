@@ -1,0 +1,26 @@
+{
+    "bot_token": "7042607606:AAFscvW9rtO6srK3LezubA22z7-oZT7pxPw",
+    "lottery":{
+        "enabled": true,
+        "odds": 200,
+        "multiplier": 10
+    },
+    "reputation":{
+        "minipositive": [".+", "miniplus", "mini+", "dotplus", "dp"],
+        "positive": ["+", "+1", "plus"],
+        "megapositive": ["++", "+2", "megaplus", "mega+"],
+        "mininegative": [".-", "miniminus", "mini-", "dotminus", "dm"],
+        "negative": ["-", "-1", "minus"],
+        "meganegative": ["--", "-2", "megaminus", "mega-"],
+        "ignorelist": []
+    },
+    "persistence":{
+        "backend": "postgres",
+        "postgres_host": "localhost",
+        "postgres_port": 5432,
+        "postgres_username": "niscoin",
+        "postgres_password": "niscoin",
+        "postgres_database": "telegres",
+        "postgres_schema": "niscoin"
+    }
+}
